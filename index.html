@@ -2,54 +2,42 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Recipedo Gallery (Web) Pre-Alpha</title>
+	<title>Recipedo Gallery (Web) Alpha</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+<header>
+  <div class="header-container">
+    <a href="#" class="header-logo">Recipedo Gallery</a>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="https://nodeda.com/recipedo">Recipedo Homepage</a></li>
+        <!--li class="dropdown">
+          <a href="#">Categories</a>
+          <!--ul class="dropdown-content">
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Drink</a></li>
+            <li><a href="#">Dessert</a></li>
+          </ul>
+        </li-->
+        <li><a href="https://nodeda.com/help">Support</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
 
-
-</head>
-<body>
-	<h1>Recipedo Gallery</h1>
-		<input type="text" id="searchInput">
+	<input type="text" id="searchInput">
 	<button id="searchButton">Search</button>
 	<div id="content"></div>
-</body>
-<script>
-	var xmlDoc;
-	var xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			displayData(this);
-		}
-	};
-	xhttp.open("GET", "https://a.adxstudios.com/recipedo/recipes.xml", true);
-	xhttp.send();
+    
+  </body>
 
-	function displayData(xml) {
-		xmlDoc = xml.responseXML;
-	}
+<footer>
+  <div class="footer-container">
+    <p class="footer-copyright">Copyright 2023 NodeDa LLC</p>
+  </div>
+</footer>
 
-	document.getElementById("searchButton").addEventListener("click", function() {
-		var searchInput = document.getElementById("searchInput").value.toLowerCase();
-		var books = xmlDoc.getElementsByTagName("book");
-		document.getElementById("content").innerHTML = "";
-		for (var i = 0; i < books.length; i++) {
-			var title = books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue.toLowerCase();
-			if (title.includes(searchInput)) {
-				var id = books[i].getAttribute("id");
-				var etad = books[i].getElementsByTagName("etad")[0].childNodes[0].nodeValue;
-				var rdisc = books[i].getElementsByTagName("rdisc")[0].childNodes[0].nodeValue;
-				var text = books[i].getElementsByTagName("text")[0].childNodes[0].nodeValue;
-				var rating = books[i].getElementsByTagName("rating")[0].childNodes[0].nodeValue;
-				var image = books[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
+<script src="js/webengine.js"></script>
 
-				//document.getElementById("content").innerHTML += "<h2>ID: " + id + "</h2>";
-				document.getElementById("content").innerHTML += "<h3>Title: " + title + "</h3>";
-				document.getElementById("content").innerHTML += "<p>Cook Time: " + etad + "</p>";
-				document.getElementById("content").innerHTML += "<p>Risk: " + rdisc + "</p>";
-				document.getElementById("content").innerHTML += "<p>Description: " + text + "</p>";
-				document.getElementById("content").innerHTML += "<p>Rating: " + rating + "</p>";
-				document.getElementById("content").innerHTML += "<img src='" + image + "'><br><br>";
-			}
-		}
-	});
-</script>
 </html>
