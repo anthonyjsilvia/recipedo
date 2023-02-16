@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog>
+    <book id="1">
+        <title>Oven Baked Fries</title>
+        <!--image>https://recipedo.nodeda.com/gallery/ovenbakedfries.jpg</image-->
+        <image>https://static.wixstatic.com/media/1a10cb_9e51ae605cbb4f0cb91b09dfa3b54185~mv2.jpg/v1/fill/w_640,h_402,al_c,q_80,enc_auto/Image-empty-state.jpg</image>
+        <prep>20-25 Minutes</prep>
+        <cook>10-14 Minutes</cook>
+        <level>Intermediate</level>
+        <Servings>12 Cookies</Servings>
+        <rating>1</rating>
+        <about>This recipe is for a classic chocolate chunk cookie made with all-purpose flour, baking soda, salt, butter, white and brown sugar, eggs, vanilla extract, and chocolate chunks or chips. The cookies are easy to make and take about 20-25 minutes to prepare. They are baked for 10-12 minutes until the edges are golden brown. The perfect treat to enjoy with a glass of milk or a cup of coffee.</about>
+        <ingredients>2 and 1/4 cups of all-purpose flour</ingredients>
+        <ingredients>1 tsp baking soda</ingredients>
+        <ingredients>1 tsp salt</ingredients>
+        <ingredients>1 cup unsalted butter, at room temperature</ingredients>
+        <ingredients>3/4 cup white sugar</ingredients>
+        <ingredients>3/4 cup brown sugar</ingredients>
+        <ingredients>2 large eggs</ingredients>
+        <ingredients>2 tsp vanilla extract</ingredients>
+        <ingredients>2 cups chocolate chunks or chips</ingredients>
+        <directions>Preheat the oven to 350 degrees F (175 degrees C). Line a baking sheet with parchment paper.
+            In a medium bowl, mix together the flour, baking soda, and salt.
+            In a large mixing bowl, cream the butter, white sugar, and brown sugar until smooth. Add the eggs one at a time, mixing well after each addition. Stir in the vanilla extract.
+            Gradually add the flour mixture to the butter mixture and mix until just combined. Fold in the chocolate chunks or chips.
+            Using a cookie scoop or spoon, drop rounded balls of dough onto the prepared baking sheet.
+            Bake for 10-12 minutes, or until the edges are golden brown. Allow cookies to cool on the baking sheet for 5 minutes before transferring them to a wire rack to cool completely.
+
+            Enjoy your homemade chocolate chunk cookies!</directions>
+    </book>
+
+   
+</catalog>
