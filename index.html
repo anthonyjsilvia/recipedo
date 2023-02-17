@@ -1,12 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script>
-if( /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
-  window.location.replace("https://nodeda.com/recipedoapp");
-}
-</script>
-
 	<meta charset="UTF-8">
 	<title>Recipedo Gallery (Web) Alpha</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
@@ -54,7 +48,7 @@ if( /Android|iPhone|iPad|iPod/i.test(navigator.userAgent) ) {
       (navigator.userAgent.match(/Macintosh/) && navigator.userAgent.match(/Mac OS X (\d+_\d+)/)[1] === "10_15")
     ) {
       // Display message in the compatibility-message element
-      document.getElementById("compatibility-message").innerHTML = "Your device is compatible";
+      document.getElementById("compatibility-message").innerHTML = "Your device is compatible, Download Recipedo Today! <a href="https://nodeda.com/recipedo">Download the App</a>";
     } else {
       // Display message in the compatibility-message element
       document.getElementById("compatibility-message").innerHTML =
