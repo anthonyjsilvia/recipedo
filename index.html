@@ -44,7 +44,7 @@
     // Check if device is running iOS or iPadOS 14 or later, Android 10 or later, or macOS 10.15 or later
     if (
       (navigator.userAgent.match(/iPhone|iPad/) && parseFloat(navigator.userAgent.match(/OS (\d+)_(\d+)/)[1]) >= 14) ||
-      (navigator.userAgent.match(/Android/) && parseFloat(navigator.userAgent.match(/Android (\d+)/)[1]) >= 10) ||
+      (navigator.userAgent.match(/Android/) && parseFloat(navigator.userAgent.match(/Android (\d+)/)[1]) >= 15) ||
       (navigator.userAgent.match(/Macintosh/) && navigator.userAgent.match(/Mac OS X (\d+_\d+)/)[1] === "10_15")
     ) {
       // Display message in the compatibility-message element
