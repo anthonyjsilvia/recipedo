@@ -1,7 +1,6 @@
 /* This code is Copyright Property of NodeDa LLC */	
 
 /* Body */
-
 body {
 		font-family: Arial, sans-serif;
 		text-align: center;
@@ -53,6 +52,7 @@ body {
 	}
 
 	h3 {
+        text-transform: uppercase;
 		font-size: 20px;
 		color: #333;
 		margin-bottom: 10px;
@@ -155,7 +155,7 @@ body {
 
 /* Content */
 #content img {
-	width: 300px;
+	width: 100%;
 	height: 300px;
 	margin: 0 auto 20px;
 	display: block;
@@ -167,5 +167,63 @@ body {
 	color: #333;
 	margin-bottom: 20px;
 	word-wrap: break-word;
+}
+/* Mobile Friendly */
+@media (max-width: 600px) {
+    body {
+        padding: 0 10px;
+    }
+    input[type="text"] {
+        width: 100%;
+    }
+    #content {
+        width: 100%;
+        margin: 0;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    button {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .header-container {
+        padding: 10px;
+    }
+    .header-nav {
+        display: none;
+    }
+    .header-nav ul {
+        flex-direction: column;
+    }
+    .header-nav a {
+        padding: 10px 0;
+        border-bottom: 1px solid #ccc;
+    }
+    .dropdown {
+        position: static;
+    }
+    .dropdown-content {
+        position: static;
+        display: block;
+        background-color: transparent;
+        box-shadow: none;
+    }
+    .footer-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    .footer-copyright {
+        margin-top: 10px;
+        font-size: 12px;
+    }
 }
 
