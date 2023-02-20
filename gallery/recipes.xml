@@ -56,5 +56,34 @@
             Remove the brisket from the pot and let it rest for 10-15 minutes before slicing it against the grain.
             Serve the corned beef and vegetables with the cooking liquid as a flavorful broth.</directions>
     </book>
-   
+    <book id="3">
+        <title>Meatloaf</title>
+        <!--image>https://recipedo.nodeda.com/gallery/ovenbakedfries.jpg</image-->
+        <image>https://static.wixstatic.com/media/1a10cb_f5b9950c60bc4331b4f1327f1fcf5fae~mv2.jpg/v1/fill/w_650,h_408,al_c,q_80,enc_auto/Image-empty-state.jpg</image>
+        <prep>15-20 Minutes</prep>
+        <cook>1 Hour</cook>
+        <level>Beginner</level>
+        <Servings>4-6</Servings>
+        <rating>1</rating>
+        <about>This recipe for classic meatloaf is easy to make and packed with flavor. The grated vegetables add moisture to the meatloaf and the ketchup glaze gives it a delicious sweet and tangy finish. This dish is perfect for dinner, and it's also great for meal prepping.</about>
+        <ingredients>1 lb ground beef</ingredients>
+        <ingredients>1/2 cup breadcrumbs</ingredients>
+        <ingredients>1/4 cup milk</ingredients>
+        <ingredients>1/2 cup grated onion</ingredients>
+        <ingredients>1/4 cup grated carrot</ingredients>
+        <ingredients>1/4 cup grated celery</ingredients>
+        <ingredients>1 egg</ingredients>
+        <ingredients>1 tsp salt</ingredients>
+        <ingredients>1/4 tsp black pepper</ingredients>
+        <ingredients>1/4 cup ketchup</ingredients>
+        <ingredients>2 tbsp brown sugar</ingredients>
+        <ingredients>1 tbsp mustard</ingredients>
+        <ingredients>1 tsp Worcestershire sauce</ingredients>
+        <directions>Preheat the oven to 350 degrees F (175 degrees C). Grease a 9x5 inch loaf pan with cooking spray.
+            In a large mixing bowl, combine the ground beef, breadcrumbs, milk, grated onion, grated carrot, grated celery, egg, salt, and pepper. Mix well.
+            Press the mixture into the prepared loaf pan.
+            In a small bowl, mix together the ketchup, brown sugar, mustard, and Worcestershire sauce. Spread the mixture over the meatloaf.
+            Bake for 1 hour, or until the internal temperature reaches 160 degrees F (70 degrees C) on an instant-read thermometer.
+            Let the meatloaf rest for 10 minutes before slicing and serving.</directions>
+    </book>
 </catalog>
