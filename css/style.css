@@ -43,15 +43,15 @@ color: #fff;
 
 /* Nav Bar */
 .header-container {
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 10px 36px;
-background-color: #000;
-position: fixed;
-top: 0;
-left: 0;
-right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 36px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #00A2FF, #4AAB2D);
 }
 
 .header-logo {
