@@ -51,7 +51,7 @@ color: #fff;
   top: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to right, #00A2FF, #4AAB2D);
+  background: linear-gradient(to left, #00A2FF, #4AAB2D);
 }
 
 .header-logo {
