@@ -1,3 +1,13 @@
+function checkPassword() {
+  const password = document.getElementById("password-input").value;
+  if (password === "code2023") {
+    // Show the content
+    document.getElementById("content").style.display = "block";
+  } else {
+    // Display error message
+    alert("Incorrect password. Please try again.");
+  }
+}
 var xmlDoc;
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function() {
@@ -56,4 +66,5 @@ document.getElementById("searchButton").addEventListener("click", function() {
       document.body.classList.remove("scrolling");
     }
   });
+
 
