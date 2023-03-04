@@ -51,12 +51,15 @@ color: #fff;
   top: 0;
   left: 0;
   right: 0;
-  background: linear-gradient(to left, #00A2FF, #4AAB2D);
+  background: rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: #fff;
 }
 
 .header-logo {
 font-size: 32px;
-color: #fff;
+color: #000;
 text-decoration: none;
 }
 
@@ -75,7 +78,7 @@ padding: 0;
 .header-nav a {
 display: block;
 padding: 10px 15px;
-color: #fff;
+color: #000;
 text-decoration: none;
 }
 
