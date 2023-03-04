@@ -2,35 +2,36 @@
 <html>
 <head>
 	<meta charset="UTF-8">
-	<title>Recipedo Gallery (Web) BETA</title>
+	<title>Recipedo Gallery (Web) Beta</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-      <header>
-        <div class="header-container">
-           <a class="header-logo" href="/">
-          <img src="https://recipedo.nodeda.com/logos/logo.gal.png" alt="Recipedo Gallery Logo">
-        </a>
-          <nav class="header-nav">
-            <ul>
-              <li><a href="https://nodeda.com/recipedo">Download the App</a></li>
-              <!--li class="dropdown">
-                <a href="#">Categories</a>
-                <!--ul class="dropdown-content">
-                  <li><a href="#">Food</a></li>
-                  <li><a href="#">Drink</a></li>
-                  <li><a href="#">Dessert</a></li>
-                </ul>
-              </li-->
-              <li><a href="https://nodeda.com/help">Support</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-	  <div id="compatibility-message"></div>
-	  <input type="text" id="searchInput">
-	<button id="searchButton">Search</button>
-	  
+<header>
+  <div class="header-container">
+     <a class="header-logo" href="/">
+    <img src="https://recipedo.nodeda.com/logos/logo.gal.png" alt="Recipedo Gallery Logo">
+  </a>
+    <nav class="header-nav">
+      <ul>
+        <li><a href="https://nodeda.com/recipedo">Download the App</a></li>
+        <!--li class="dropdown">
+          <a href="#">Categories</a>
+          <!--ul class="dropdown-content">
+            <li><a href="#">Food</a></li>
+            <li><a href="#">Drink</a></li>
+            <li><a href="#">Dessert</a></li>
+          </ul>
+        </li-->
+        <li><a href="https://nodeda.com/help">Support</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<form>
+  <input type="text" id="searchInput" placeholder=" Search for recipes...">
+  <button type="button" id="searchButton">Search</button>
+</form>
 <div id="content" style="display:none;">
 	<div id="content"></div>
 	  </div>
@@ -38,16 +39,25 @@
   <input type="password" placeholder="Enter password" id="password-input">
   <button type="button" onclick="checkPassword()">Submit</button>
 </form>
-    
+  <button id="back-to-top-btn">Back to Top</button>
   </body>
 
 <footer>
   <div class="footer-container">
-    <p class="footer-copyright">Copyright 2023 NodeDa LLC</p>
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="https://www.nodeda.com/system/status">System Status</a></li>
+        <li><a href="https://www.nodeda.com/beta-program">Beta Program</a></li>
+        <li><a href="https://nodeda.com/privacy">Privacy</a></li>
+        <li><a href="https://www.nodeda.com/terms-of-use">Terms of Use</a></li>
+      </ul>
+    </nav>
+    <p class="footer-copyright">© 2023 NodeDa, LLC. All Rights Reserved</p>
   </div>
 </footer>
 
+<script src="js/mobile.js"></script>
 <script src="js/webengine.beta.js"></script>
-
+<script src="js/scrollup.js"></script>
 
 </html>

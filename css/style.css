@@ -2,7 +2,6 @@
 body {
 font-family: "Helvetica Neue", sans-serif;
 text-align: center;
-background: url(https://www.tesla.com/ns_videos/homepage/main_hero_desktop.jpg);
 background-size: cover;
 background-position: center;
 }
@@ -14,26 +13,33 @@ color: #fff;
 }
 
 input[type="text"] {
-width: 400px;
-height: 48px;
-font-size: 18px;
-margin: 20px;
-text-align: center;
-background-color: #f2f2f2;
-border: none;
-border-radius: 5px;
+  width: 90%;
+  height: 48px;
+  font-size: 18px;
+  margin: 20px auto;
+  text-align: left;
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 5px;
+  display: inline-block;
 }
 
 button {
-width: 150px;
-height: 48px;
-font-size: 18px;
-margin: 20px;
-background-color: #fff;
-color: #333;
-border: none;
-border-radius: 5px;
-cursor: pointer;
+  width: 150px;
+  height: 48px;
+  font-size: 18px;
+  margin: 20px 0 20px 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+form {
+  display: flex;
+  align-items: center;
 }
 
 button:hover {
@@ -107,8 +113,14 @@ z-index: 1;
 display: block;
 }
 
+html, body {
+  height: 100%;
+}
+
 body {
-padding-top: 60px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
 }
 
 @media (min-width: 600px) {
@@ -119,34 +131,83 @@ padding-top: 60px;
         box-shadow: none;
     }
 }
-/* Footer */
+
+footer {
+  background-color: #f5f5f5;
+  color: #666;
+  padding: 20px;
+  flex-shrink: 0;
+}
+
 .footer-container {
-background-color: #
-justify-content: center;
-align-items: center;
-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.footer-container a {
-color: #1070c4;
-text-decoration: none;
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.footer-container a:hover {
-text-decoration: underline;
+.footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
-.footer-social {
-display: flex;
+.footer-nav li {
+  margin-right: 20px;
 }
 
-.footer-social li {
-margin-right: 10px;
+.footer-nav a {
+  color: #666;
+  text-decoration: none;
+  font-size: 14px;
 }
 
-.footer-social a {
-color: #1070c4;
-text-decoration: none;
+.footer-nav a:hover {
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .footer-nav {
+    margin-top: 10px;
+  }
+  
+  .footer-nav li {
+    margin-right: 10px;
+  }
+}
+
+#back-to-top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+#back-to-top-btn:hover {
+  background-color: #555;
+}
+
+
+/* Set a minimum height for the content area */
+@media (min-height: 100vh) {
+  #content {
+    min-height: calc(100vh - 70px);
+  }
 }
 
 /* Content */
@@ -156,6 +217,7 @@ text-align: left;
 width: 800px;
 margin-left: auto;
 margin-right: auto;
+flex: 1 0 auto;
 }
 
 #content img {
@@ -246,36 +308,5 @@ border-bottom: 1px solid #333;
         display: block;
         background-color: transparent;
         box-shadow: none;
-    }
-    
-    .footer-container {
-        flex-direction: column;
-        height: auto;
-        padding: 20px;
-        text-align: center;
-    }
-    
-    .footer-social {
-        margin-bottom: 10px;
-    }
-    
-    .footer-social li {
-        margin-right: 0;
-        margin-bottom: 10px;
-    }
-    
-    .footer-social a {
-        display: block;
-        padding: 10px 0;
-        border-bottom: 1px solid #ccc;
-    }
-    
-    .footer-social a:last-child {
-        border-bottom: none;
-    }
-    
-    .footer-copyright {
-        margin-top: 10px;
-        font-size: 12px;
     }
 }
