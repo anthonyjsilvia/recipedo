@@ -63,6 +63,13 @@ color: #000;
 text-decoration: none;
 }
 
+.header-logo img {
+  height: 36px; /* Set the height of the image */
+  width: auto; /* Allow the image to scale proportionally */
+  margin-right: 10px; /* Add some space to the right of the image */
+}
+
+
 .header-nav {
 display: flex;
 justify-content: flex-end;
