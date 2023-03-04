@@ -6,25 +6,27 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-<header>
-  <div class="header-container">
-    <a href="#" class="header-logo">Recipedo Gallery</a>
-    <nav class="header-nav">
-      <ul>
-        <li><a href="https://nodeda.com/recipedo">Download the App</a></li>
-        <!--li class="dropdown">
-          <a href="#">Categories</a>
-          <!--ul class="dropdown-content">
-            <li><a href="#">Food</a></li>
-            <li><a href="#">Drink</a></li>
-            <li><a href="#">Dessert</a></li>
-          </ul>
-        </li-->
-        <li><a href="https://nodeda.com/help">Support</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+      <header>
+        <div class="header-container">
+           <a class="header-logo" href="/">
+          <img src="https://recipedo.nodeda.com/logos/logo.gal.png" alt="Recipedo Gallery Logo">
+        </a>
+          <nav class="header-nav">
+            <ul>
+              <li><a href="https://nodeda.com/recipedo">Download the App</a></li>
+              <!--li class="dropdown">
+                <a href="#">Categories</a>
+                <!--ul class="dropdown-content">
+                  <li><a href="#">Food</a></li>
+                  <li><a href="#">Drink</a></li>
+                  <li><a href="#">Dessert</a></li>
+                </ul>
+              </li-->
+              <li><a href="https://nodeda.com/help">Support</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
 	  <div id="compatibility-message"></div>
 	  <input type="text" id="searchInput">
 	<button id="searchButton">Search</button>
@@ -46,20 +48,6 @@
 </footer>
 
 <script src="js/webengine.beta.js"></script>
-<script>
-    // Check if device is running iOS or iPadOS 14 or later, Android 15 or later, or macOS 10.15 or later
-    if (
-      (navigator.userAgent.match(/iPhone|iPad/) && parseFloat(navigator.userAgent.match(/OS (\d+)_(\d+)/)[1]) >= 14) ||
-      (navigator.userAgent.match(/Android/) && parseFloat(navigator.userAgent.match(/Android (\d+)/)[1]) >= 15) ||
-      (navigator.userAgent.match(/Macintosh/) && navigator.userAgent.match(/Mac OS X (\d+_\d+)/)[1] === "10_15")
-    ) {
-      // Display message in the compatibility-message element
-      document.getElementById("compatibility-message").innerHTML = "Your device is compatible, Download Recipedo Today!";
-    } else {
-      // Display message in the compatibility-message element
-      document.getElementById("compatibility-message").innerHTML =
-        "This device is not compatible with the Recipedo app, however you can still view the gallery recipes via this Website";
-    }
-</script>
+
 
 </html>
