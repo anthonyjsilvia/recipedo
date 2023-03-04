@@ -36,7 +36,7 @@ document.getElementById("searchButton").addEventListener("click", function() {
       document.getElementById("content").innerHTML += "<p>Cook Time: " + cook + "</p>";
       document.getElementById("content").innerHTML += "<p>Level: " + level + "</p>";
       document.getElementById("content").innerHTML += "<p>Servings: " + servings + "</p>";
-      document.getElementById("content").innerHTML += "<p>Rating: " + rating + "</p>";
+     // document.getElementById("content").innerHTML += "<p>Rating: " + rating + "</p>";
       document.getElementById("content").innerHTML += "<p>About: " + about + "</p>";
       document.getElementById("content").innerHTML += "<p>Ingredients:</p><ul>";
       for (var j = 0; j < ingredients.length; j++) {
