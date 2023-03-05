@@ -53,11 +53,17 @@ function checkPassword() {
   if (password === "code2023") {
     // Show the content
     document.getElementById("content").style.display = "block";
+    // Hide the password field
+    document.getElementById("password-input").style.display = "none";
+    document.getElementById("password-input").style.visibility = "hidden";
+    document.getElementById("password-input").style.opacity = 0;
   } else {
     // Display error message
     alert("Incorrect password. Please try again.");
   }
 }
+
+
 
   window.addEventListener("scroll", function() {
     if (window.scrollY > 0) {

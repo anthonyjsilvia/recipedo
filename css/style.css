@@ -14,13 +14,15 @@ color: #fff;
 
 input[type="text"] {
   width: 90%;
-  height: 48px;
+  height: 40px;
+  padding: 5px;
   font-size: 18px;
   margin: 20px auto;
   text-align: left;
-  background-color: #f2f2f2;
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 20px;
   display: inline-block;
 }
 
@@ -29,22 +31,28 @@ button {
   height: 48px;
   font-size: 18px;
   margin: 20px 0 20px 10px;
-  background-color: #000;
+  background-color: #4682B4;
   color: #fff;
-  border: none;
-  border-radius: 5px;
+  border: 2px solid #4682B4;
+  border-radius: 20px;
   cursor: pointer;
   display: inline-block;
 }
 
-form {
-  display: flex;
-  align-items: center;
+button:hover {
+  border: 3px solid #4682B4;
+  background-color: #fff;
+  color: #4682B4;
 }
 
-button:hover {
-background-color: #333;
-color: #fff;
+form {
+ display: flex;
+  /*align-items: center;*/
+  position:fixed;
+width: 800px;
+background: rgba(255, 255, 255, 0.8);
+-webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
 }
 
 /* Nav Bar */
@@ -211,12 +219,23 @@ footer {
 }
 
 /* Content */
+#allcontent {
+    background-color: magenta;
+      margin-bottom: 200px;
+      text-align: left;
+      width: 800px;
+      position: fixed;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+}
 #content {
 margin-top: 50px;
 text-align: left;
 width: 800px;
 margin-left: auto;
 margin-right: auto;
+margin-bottom: 150px;
 flex: 1 0 auto;
 }
 
