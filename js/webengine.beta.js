@@ -28,7 +28,7 @@ document.getElementById("searchButton").addEventListener("click", function() {
       var rating = books[i].getElementsByTagName("rating")[0].childNodes[0].nodeValue;
       var about = books[i].getElementsByTagName("about")[0].childNodes[0].nodeValue;
       var ingredients = books[i].getElementsByTagName("ingredients");
-      var directions = books[i].getElementsByTagName("directions")[0].childNodes[0].nodeValue;
+      var directions = books[i].getElementsByTagName("directions");
 
       document.getElementById("content").innerHTML += "<h3>" + title + "</h3>";
       document.getElementById("content").innerHTML += "<img src='" + image + "'><br><br>";
