@@ -190,6 +190,10 @@ footer {
   }
 }
 
+ol {
+  list-style-type: decimal;
+}
+
 #back-to-top-btn {
   display: none;
   position: fixed;
