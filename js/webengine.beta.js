@@ -48,17 +48,16 @@ document.getElementById("searchButton").addEventListener("click", function() {
         var ingredient = ingredients[j].childNodes[0].nodeValue;
         document.getElementById("content").innerHTML += "<li>" + ingredient + "</li>";
       }      
-            document.getElementById("content").innerHTML += "<p>Directions:</p><ol>";
-      for (var j = 0; j < directions.length; j++) {
-        var direction = directions[j].childNodes[0].nodeValue;
-        document.getElementById("content").innerHTML += "<li>" + direction + "</li>";
-      }
-      document.getElementById("content").innerHTML += "</ol><p>Directions: " + direction + "</p>";
-    }
-  }
+            document.getElementById("content").innerHTML += "<p>Directions:</p><ol start='1'>";
+for (var j = 0; j < directions.length; j++) {
+  var direction = directions[j].childNodes[0].nodeValue;
+  document.getElementById("content").innerHTML += "<li>" + direction + "</li>";
+}
+document.getElementById("content").innerHTML += "</ol>";
+
 });
 
-function checkPassword() {
+/*function checkPassword() {
   const password = document.getElementById("password-input").value;
   if (password === "code2023") {
     // Show the content
@@ -71,7 +70,7 @@ function checkPassword() {
     // Display error message
     alert("Incorrect password. Please try again.");
   }
-}
+}*/
 
 
 
