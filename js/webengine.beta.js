@@ -43,18 +43,15 @@ document.getElementById("searchButton").addEventListener("click", function() {
         var ingredient = ingredients[j].childNodes[0].nodeValue;
         document.getElementById("content").innerHTML += "<li>" + ingredient + "</li>";
       }
-            document.getElementById("content").innerHTML += "<p>Ingredients:</p><ul>";
-      for (var j = 0; j < ingredients.length; j++) {
-        var ingredient = ingredients[j].childNodes[0].nodeValue;
-        document.getElementById("content").innerHTML += "<li>" + ingredient + "</li>";
-      }      
+     
             document.getElementById("content").innerHTML += "<p>Directions:</p><ol start='1'>";
 for (var j = 0; j < directions.length; j++) {
   var direction = directions[j].childNodes[0].nodeValue;
   document.getElementById("content").innerHTML += "<li>" + direction + "</li>";
 }
 document.getElementById("content").innerHTML += "</ol>";
-
+}
+}
 });
 
 /*function checkPassword() {
@@ -81,5 +78,3 @@ document.getElementById("content").innerHTML += "</ol>";
       document.body.classList.remove("scrolling");
     }
   });
-
-
