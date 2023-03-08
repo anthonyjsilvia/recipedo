@@ -43,6 +43,16 @@ document.getElementById("searchButton").addEventListener("click", function() {
         var ingredient = ingredients[j].childNodes[0].nodeValue;
         document.getElementById("content").innerHTML += "<li>" + ingredient + "</li>";
       }
+            document.getElementById("content").innerHTML += "<p>Ingredients:</p><ul>";
+      for (var j = 0; j < ingredients.length; j++) {
+        var ingredient = ingredients[j].childNodes[0].nodeValue;
+        document.getElementById("content").innerHTML += "<li>" + ingredient + "</li>";
+      }      
+            document.getElementById("content").innerHTML += "<p>Directions:</p><ul>";
+      for (var j = 0; j < directions.length; j++) {
+        var directions = directions[j].childNodes[0].nodeValue;
+        document.getElementById("content").innerHTML += "<li>" + directions + "</li>";
+      }
       document.getElementById("content").innerHTML += "</ul><p>Directions: " + directions + "</p>";
     }
   }
