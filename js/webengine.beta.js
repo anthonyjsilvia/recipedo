@@ -50,10 +50,10 @@ document.getElementById("searchButton").addEventListener("click", function() {
       }      
             document.getElementById("content").innerHTML += "<p>Directions:</p><ul>";
       for (var j = 0; j < directions.length; j++) {
-        var directions = directions[j].childNodes[0].nodeValue;
-        document.getElementById("content").innerHTML += "<li>" + directions + "</li>";
+        var direction = directions[j].childNodes[0].nodeValue;
+        document.getElementById("content").innerHTML += "<li>" + direction + "</li>";
       }
-      document.getElementById("content").innerHTML += "</ul><p>Directions: " + directions + "</p>";
+      document.getElementById("content").innerHTML += "</ul><p>Directions: " + direction + "</p>";
     }
   }
 });
