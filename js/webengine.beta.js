@@ -14,6 +14,7 @@ var books = xmlDoc.getElementsByTagName("book");
 document.getElementById("content").innerHTML = "";
 for (var i = 0; i < books.length; i++) {
 var title = books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue.toLowerCase();
+if (title.includes(searchInput)) {
 var id = books[i].getAttribute("id");
 var image = books[i].getElementsByTagName("image")[0].childNodes[0].nodeValue;
 var prep = books[i].getElementsByTagName("prep")[0].childNodes[0].nodeValue;
@@ -25,22 +26,28 @@ var about = books[i].getElementsByTagName("about")[0].childNodes[0].nodeValue;
 var ingredients = books[i].getElementsByTagName("ingredients");
 var directions = books[i].getElementsByTagName("directions");
 
-document.getElementById("content").innerHTML += "<h3>" + title + "</h3>";
-document.getElementById("content").innerHTML += "<img src='" + image + "'><br><br>";
-document.getElementById("content").innerHTML += "<p>Prep Time: " + prep + "</p>";
-document.getElementById("content").innerHTML += "<p>Cook Time: " + cook + "</p>";
-document.getElementById("content").innerHTML += "<p>Difficulty: " + level + "</p>";
-document.getElementById("content").innerHTML += "<p>Servings: " + servings + "</p>";
-
-document.getElementById("content").innerHTML += "<p>Directions:</p><ol start='1'>";
+  document.getElementById("content").innerHTML += "<h3>" + title + "</h3>";
+  document.getElementById("content").innerHTML += "<img src='" + image + "'><br><br>";
+  document.getElementById("content").innerHTML += "<p>Prep Time: " + prep + "</p>";
+  document.getElementById("content").innerHTML += "<p>Cook Time: " + cook + "</p>";
+  document.getElementById("content").innerHTML += "<p>Difficulty: " + level + "</p>";
+  document.getElementById("content").innerHTML += "<p>Servings: " + servings + "</p>";
+ // document.getElementById("content").innerHTML += "<p>Rating: " + rating + "</p>";
+  document.getElementById("content").innerHTML += "<p>About: " + about + "</p>";
+  document.getElementById("content").innerHTML += "<p>Ingredients:</p><ul>";
+  for (var j = 0; j < ingredients.length; j++) {
+    var ingredient = ingredients[j].childNodes[0].nodeValue;
+    document.getElementById("content").innerHTML += "<li>" + ingredient + "</li>";
+  }
+ 
+        document.getElementById("content").innerHTML += "<p>Directions:</p><ol start='1'>";
 for (var j = 0; j < directions.length; j++) {
-  var direction = directions[j].childNodes[0].nodeValue;
-  document.getElementById("content").innerHTML += "<li>" + direction + "</li>";
+var direction = directions[j].childNodes[0].nodeValue;
+document.getElementById("content").innerHTML += "<li>" + direction + "</li>";
 }
 document.getElementById("content").innerHTML += "</ol>";
 }
 }
-
 document.getElementById("searchInput").addEventListener("keydown", function(event) {
   if (event.keyCode === 13) {
     event.preventDefault();
