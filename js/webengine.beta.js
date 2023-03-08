@@ -48,12 +48,12 @@ document.getElementById("searchButton").addEventListener("click", function() {
         var ingredient = ingredients[j].childNodes[0].nodeValue;
         document.getElementById("content").innerHTML += "<li>" + ingredient + "</li>";
       }      
-            document.getElementById("content").innerHTML += "<p>Directions:</p><ul>";
+            document.getElementById("content").innerHTML += "<p>Directions:</p><ol>";
       for (var j = 0; j < directions.length; j++) {
         var direction = directions[j].childNodes[0].nodeValue;
         document.getElementById("content").innerHTML += "<li>" + direction + "</li>";
       }
-      document.getElementById("content").innerHTML += "</ul><p>Directions: " + direction + "</p>";
+      document.getElementById("content").innerHTML += "</ol><p>Directions: " + direction + "</p>";
     }
   }
 });
