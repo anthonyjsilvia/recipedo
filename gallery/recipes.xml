@@ -19,100 +19,14 @@
         <ingredients>2 large eggs</ingredients>
         <ingredients>2 tsp vanilla extract</ingredients>
         <ingredients>2 cups chocolate chunks or chips</ingredients>
-        <directions>Preheat the oven to 350 degrees F (175 degrees C). Line a baking sheet with parchment paper.
-In a medium bowl, mix together the flour, baking soda, and salt.
-In a large mixing bowl, cream the butter, white sugar, and brown sugar until smooth. Add the eggs one at a time, mixing well after each addition. Stir in the vanilla extract.
- Gradually add the flour mixture to the butter mixture and mix until just combined. Fold in the chocolate chunks or chips.
- Using a cookie scoop or spoon, drop rounded balls of dough onto the prepared baking sheet.
-Bake for 10-12 minutes, or until the edges are golden brown. Allow cookies to cool on the baking sheet for 5 minutes before transferring them to a wire rack to cool completely.
-
-Enjoy your homemade chocolate chunk cookies!</directions>
-    </book>
-    <book id="2">
-        <title>Corned Beef and Cabbage</title>
-        <!--image>https://recipedo.nodeda.com/gallery/ovenbakedfries.jpg</image-->
-        <image>https://static.wixstatic.com/media/1a10cb_f5b9950c60bc4331b4f1327f1fcf5fae~mv2.jpg/v1/fill/w_650,h_408,al_c,q_80,enc_auto/Image-empty-state.jpg</image>
-        <prep>15-20 Minutes</prep>
-        <cook>3-3.5 hours</cook>
-        <level>Intermediate</level>
-        <Servings>6-8</Servings>
-        <rating>1</rating>
-        <about>This traditional Irish dish is perfect for St. Patrick's Day or any other day. Corned beef is cooked in a flavorful broth with cabbage, potatoes, and carrots. This dish is hearty and delicious; the leftovers are great for sandwiches.</about>
-        <ingredients>4-5 lb corned beef brisket</ingredients>
-        <ingredients>1 large onion ( Peeled and quartered )</ingredients>
-        <ingredients>2 cloves garlic ( Peeled )</ingredients>
-        <ingredients>4 cups beef broth</ingredients>
-        <ingredients>1 cup water</ingredients>
-        <ingredients>1/4 cup brown sugar</ingredients>
-        <ingredients>1/4 cup honey</ingredients>
-        <ingredients>2 tbsp pickling spice</ingredients>
-        <ingredients>2 bay leaves</ingredients>
-        <ingredients>1 head of green cabbage ( Cut into wedges )</ingredients>
-        <ingredients>4-6 small red potatoes ( Quartered )</ingredients>
-        <ingredients>4-6 carrots ( Cut into chunks )</ingredients>
-        <directions>Rinse the corned beef brisket under cold running water and pat dry. Place the brisket in a large Dutch oven or pot.
-            Add the onion, garlic, beef broth, water, brown sugar, honey, pickling spice, and bay leaves to the pot. Bring the mixture to a boil, then reduce the heat and simmer for 2-3 hours or until the meat is tender.
-            Add the cabbage, potatoes, and carrots to the pot. Bring the mixture to a boil, then reduce the heat and simmer for 30-40 minutes or until the vegetables are tender.
-            Remove the brisket from the pot and let it rest for 10-15 minutes before slicing it against the grain.
-            Serve the corned beef and vegetables with the cooking liquid as a flavorful broth.</directions>
-    </book>
-    <book id="3">
-        <title>Meatloaf</title>
-        <!--image>https://recipedo.nodeda.com/gallery/ovenbakedfries.jpg</image-->
-        <image>https://static.wixstatic.com/media/1a10cb_e97268ac1e14487e94920da01176362f~mv2.jpg/v1/fill/w_739,h_464,al_c,lg_1,q_80,enc_auto/Image-empty-state.jpg</image>
-        <prep>15-20 Minutes</prep>
-        <cook>1 Hour</cook>
-        <level>Beginner</level>
-        <Servings>4-6</Servings>
-        <rating>1</rating>
-        <about>This recipe for classic meatloaf is easy to make and packed with flavor. The grated vegetables add moisture to the meatloaf and the ketchup glaze gives it a delicious sweet and tangy finish. This dish is perfect for dinner, and it's also great for meal prepping.</about>
-        <ingredients>1 lb ground beef</ingredients>
-        <ingredients>1/2 cup breadcrumbs</ingredients>
-        <ingredients>1/4 cup milk</ingredients>
-        <ingredients>1/2 cup grated onion</ingredients>
-        <ingredients>1/4 cup grated carrot</ingredients>
-        <ingredients>1/4 cup grated celery</ingredients>
-        <ingredients>1 egg</ingredients>
-        <ingredients>1 tsp salt</ingredients>
-        <ingredients>1/4 tsp black pepper</ingredients>
-        <ingredients>1/4 cup ketchup</ingredients>
-        <ingredients>2 tbsp brown sugar</ingredients>
-        <ingredients>1 tbsp mustard</ingredients>
-        <ingredients>1 tsp Worcestershire sauce</ingredients>
-        <directions>Preheat the oven to 350 degrees F (175 degrees C). Grease a 9x5 inch loaf pan with cooking spray.
-            In a large mixing bowl, combine the ground beef, breadcrumbs, milk, grated onion, grated carrot, grated celery, egg, salt, and pepper. Mix well.
-            Press the mixture into the prepared loaf pan.
-            In a small bowl, mix together the ketchup, brown sugar, mustard, and Worcestershire sauce. Spread the mixture over the meatloaf.
-            Bake for 1 hour, or until the internal temperature reaches 160 degrees F (70 degrees C) on an instant-read thermometer.
-            Let the meatloaf rest for 10 minutes before slicing and serving.</directions>
-    </book>
-    <book id="4">
-        <title>Pineapple upside down cake</title>
-        <!--image>https://recipedo.nodeda.com/gallery/ovenbakedfries.jpg</image-->
-        <image>https://static.wixstatic.com/media/1a10cb_b3dd001083d748b4a86b711fa08ec1bb~mv2.jpg/v1/fill/w_1500,h_942,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Image-empty-state.jpg</image>
-        <prep>15-20 Minutes</prep>
-        <cook>25-30 Minutes</cook>
-        <level>Intermediate</level>
-        <Servings>8-10</Servings>
-        <rating>1</rating>
-        <about>This Pineapple Upside-Down Cake is a classic recipe that's perfect for any occasion. The pineapple and cherries add a sweet and tropical touch to the cake, and it's easy to make. The prep time is relatively short and it serves 8-10 people. The cake has a moist and tender texture and it's perfect served with a scoop of vanilla ice cream.</about>
-        <ingredients>1/2 cup unsalted butter</ingredients>
-        <ingredients>1/2 cup brown sugar</ingredients>
-        <ingredients>1 can pineapple slices ( Drained with juice reserved )</ingredients>
-        <ingredients>Maraschino cherries</ingredients>
-        <ingredients>1 egg</ingredients>
-        <ingredients>1 tsp vanilla extract</ingredients>
-        <ingredients>1 egg</ingredients>
-        <ingredients>1/2 cup pineapple juice</ingredients>
-        <ingredients>1 cup all-purpose flour</ingredients>
-        <ingredients>1 tsp baking powder</ingredients>
-        <ingredients>1/4 tsp salt</ingredients>
-        <directions>Preheat the oven to 350 degrees F (175 degrees C). Grease a 9-inch round cake pan.
-Melt the butter in a small saucepan over medium heat. Stir in the brown sugar and cook until the sugar is dissolved. Pour the mixture into the prepared cake pan.
-Arrange the pineapple slices on top of the sugar mixture. Place a cherry in the center of each pineapple ring.
-In a large mixing bowl, cream together the granulated sugar, egg, and vanilla extract. Stir in the pineapple juice. In a separate bowl, mix together the flour, baking powder, and salt. Gradually add the dry ingredients to the wet ingredients and mix well.
-Pour the batter over the pineapple and cherry mixture.
-Bake for 25-30 minutes, or until a toothpick inserted into the center of the cake comes out clean.
-Let the cake cool in the pan for 10 minutes before inverting it onto a serving plate.</directions>
+        <directions>Preheat the oven to 350 degrees F (175 degrees C). Line a baking sheet with parchment paper.</directions>
+<directions>In a medium bowl, mix together the flour, baking soda, and salt.</directions>
+<directions>In a large mixing bowl, cream the butter, white sugar, and brown sugar until smooth.</directions>
+<directions>Add the eggs one at a time, mixing well after each addition. Stir in the vanilla extract.</directions>
+<directions>Gradually add the flour mixture to the butter mixture and mix until just combined. Fold in the chocolate chunks or chips.</directions>
+<directions>Using a cookie scoop or spoon, drop rounded balls of dough onto the prepared baking sheet.</directions>
+<directions>Bake for 10-12 minutes, or until the edges are golden brown.</directions>
+<directions>Allow cookies to cool on the baking sheet for 5 minutes before transferring them to a wire rack to cool completely.</directions>
+<directions>Enjoy your homemade chocolate chunk cookies!</directions>
     </book>
 </catalog>
