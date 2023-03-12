@@ -34,7 +34,7 @@
         <image>https://recipedo.nodeda.com/gallery/images/garlicchicken.png</image>
         <prep>10 Minutes</prep>
         <cook>40 Minutes</cook>
-        <level>Beginner</level>
+        <level>Intermediate</level>
         <Servings>4 servings</Servings>
         <rating>1</rating>
         <about>Looking for a delicious and easy-to-prepare meal that will please the whole family? Look no further than this Garlic Chicken and Potatoes recipe! This hearty and flavorful dish combines tender, juicy chicken breasts with roasted baby potatoes that are seasoned with a variety of herbs and spices. A tangy garlic-lemon sauce adds just the right amount of zing to the dish, making it a standout meal that's perfect for any occasion. With a prep time of just 10 minutes and a cooking time of 40 minutes, this recipe is quick and easy to make, making it the perfect choice for busy weeknights or lazy weekends. So why wait? Try this Garlic Chicken and Potatoes recipe today and enjoy a delicious and satisfying meal that's sure to become a family favorite!</about>
@@ -57,5 +57,28 @@
         <directions>Return the baking sheet to the oven, and bake for an additional 20 minutes or until the chicken is cooked through and the potatoes are tender.</directions>
         <directions>Remove the baking sheet from the oven, and let the chicken rest for 5 minutes before slicing.</directions>
         <directions>Sprinkle chopped fresh parsley over the roasted potatoes, and serve the sliced chicken with the roasted potatoes on the side.</directions>
+    </book>
+    <book id="3">
+        <title>Caprese Salad</title>
+        <!--image>https://recipedo.nodeda.com/gallery/ovenbakedfries.jpg</image-->
+        <image>https://recipedo.nodeda.com/gallery/images/capresesalad.png</image>
+        <prep>10 Minutes</prep>
+        <cook>5 Minutes</cook>
+        <level>Beginner</level>
+        <Servings>4 servings</Servings>
+        <rating>1</rating>
+        <about>If you're looking for a light and refreshing dish that's bursting with flavor, look no further than this Caprese Salad recipe. This classic Italian dish features sweet cherry tomatoes, creamy bocconcini cheese, and fragrant basil leaves, all tossed together in a tangy balsamic dressing that's both sweet and savory. With a prep time of just 10 minutes and a cooking time of 5 minutes, this salad is quick and easy to make, making it the perfect choice for a busy weeknight or a lazy weekend brunch. So why wait? Try this Caprese Salad recipe today and enjoy a delicious and healthy dish that's sure to become a favorite in your househoIf you're looking for a light and refreshing dish that's bursting with flavor, look no further than this Caprese Salad recipe. This classic Italian dish features sweet cherry tomatoes, creamy bocconcini cheese, and fragrant basil leaves, all tossed together in a tangy balsamic dressing that's both sweet and savory. With a prep time of just 10 minutes and a cooking time of 5 minutes, this salad is quick and easy to make, making it the perfect choice for a busy weeknight or a lazy weekend brunch. So why wait? Try this Caprese Salad recipe today and enjoy a delicious and healthy dish that's sure to become a favorite in your household!</about>
+        <ingredients>1 cup of cherry tomatoes; halved</ingredients>
+        <ingredients>1 cup of bocconcini cheese; halved</ingredients>
+        <ingredients>1/4 cup of balsamic vinegar</ingredients>
+        <ingredients>1/4 cup of olive oil</ingredients>
+        <ingredients>1 tablespoon of honey</ingredients>
+        <ingredients>1/4 teaspoon of salt</ingredients>
+        <ingredients>1/4 teaspoon of black pepper</ingredients>
+        <ingredients>1/2 cup of fresh basil leaves; torn</ingredients>
+        <directions>In a small saucepan, combine the balsamic vinegar, olive oil, honey, salt, and black pepper. Heat over medium-low heat, stirring occasionally until the mixture is well combined and slightly thickened, about 5 minutes. Remove from heat and let cool.</directions>
+        <directions>In a large bowl, combine the cherry tomatoes and bocconcini cheese. Add the cooled balsamic dressing and toss to coat.In a large bowl, combine the cherry tomatoes and bocconcini cheese. Add the cooled balsamic dressing and toss to coat.</directions>
+        <directions>Arrange the tomato and cheese mixture on a platter. Top with torn basil leaves and an extra drizzle of balsamic dressing if desired.Arrange the tomato and cheese mixture on a platter. Top with torn basil leaves and an extra drizzle of balsamic dressing if desired.</directions>
+        <directions>Serve immediately and enjoy!</directions>
     </book>
 </catalog>
