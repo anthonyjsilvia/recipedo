@@ -29,7 +29,7 @@
         <directions>Allow cookies to cool on the baking sheet for 5 minutes before transferring them to a wire rack to cool completely.</directions>
     </book>
     <book id="2">
-        <title>Garlic Chicken &amp; Potatoes</title>
+        <title>Garlic Chicken and Potatoes</title>
         <!--image>https://recipedo.nodeda.com/gallery/ovenbakedfries.jpg</image-->
         <image>https://recipedo.nodeda.com/gallery/images/garlicchicken.png</image>
         <prep>10 Minutes</prep>
@@ -80,5 +80,34 @@
         <directions>In a large bowl, combine the cherry tomatoes and bocconcini cheese. Add the cooled balsamic dressing and toss to coat.In a large bowl, combine the cherry tomatoes and bocconcini cheese. Add the cooled balsamic dressing and toss to coat.</directions>
         <directions>Arrange the tomato and cheese mixture on a platter. Top with torn basil leaves and an extra drizzle of balsamic dressing if desired.Arrange the tomato and cheese mixture on a platter. Top with torn basil leaves and an extra drizzle of balsamic dressing if desired.</directions>
         <directions>Serve immediately and enjoy!</directions>
+    </book>
+    <book id="4">
+    <title>Corned Beef and Cabbage</title>
+    <image>https://recipedo.nodeda.com/gallery/images/capresesalad.png</image>
+    <prep>15-20 Minutes</prep>
+    <cook>3-3.5 hours</cook>
+    <level>Intermediate</level>
+    <Servings>6-8 Servings</Servings>
+    <rating>1</rating>
+    <about>
+        This traditional Irish dish is perfect for St. Patrick's Day or any other day. Corned beef is cooked in a flavorful broth with cabbage, potatoes, and carrots. This dish is hearty and delicious; the leftovers are great for sandwiches.
+    </about>
+    <ingredients>4-5 lb corned beef brisket</ingredients>
+    <ingredients>1 large onion; peeled and quartered</ingredients>
+    <ingredients>2 cloves garlic; peeled</ingredients>
+    <ingredients>4 cups beef broth</ingredients>
+    <ingredients>1 cup water</ingredients>
+    <ingredients>1/4 cup brown sugar</ingredients>
+    <ingredients>1/4 cup honey</ingredients>
+    <ingredients>2 tbsp pickling spice</ingredients>
+    <ingredients>2 bay leaves</ingredients>
+    <ingredients>1 head of green cabbage, cut into wedges</ingredients>
+    <ingredients>4-6 small red potatoes, quartered</ingredients>
+    <ingredients>4-6 carrots, cut into chunks</ingredients>
+    <directions>Rinse the corned beef brisket under cold running water and pat dry. Place the brisket in a large Dutch oven or pot.</directions>
+    <directions>Add the onion, garlic, beef broth, water, brown sugar, honey, pickling spice, and bay leaves to the pot. Bring the mixture to a boil, then reduce the heat and simmer for 2-3 hours or until the meat is tender.</directions>
+    <directions>Add the cabbage, potatoes, and carrots to the pot. Bring the mixture to a boil, then reduce the heat and simmer for 30-40 minutes or until the vegetables are tender.</directions>
+    <directions>Remove the brisket from the pot and let it rest for 10-15 minutes before slicing it against the grain.</directions>
+    <directions>Serve the corned beef and vegetables with the cooking liquid as a flavorful broth.</directions>
     </book>
 </catalog>
